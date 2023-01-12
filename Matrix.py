@@ -22,7 +22,7 @@ for i in range(r1):
 for i in range (r1):
     print("\n")
     for j in range (c1):
-        print(matrix1[i][j] , end="  ")
+        print(matrix1[i][j] , end="  ")                         #First Matrix input
     
 
 r2=int(input("\nEnter the number of rows for 2nd matrix: "))
@@ -41,7 +41,7 @@ for i in range(r2):
 for i in range (r2):
     print("\n")
     for j in range (c2):
-        print(matrix2[i][j] , end="  ")
+        print(matrix2[i][j] , end="  ")                            #Second Matrix input
     
     
 def add():
@@ -60,7 +60,7 @@ def add():
                 print(add[i][j] , end="  ")
     
     else:
-        print("\nAddition cannot be performed")
+        print("\nAddition cannot be performed")                      #Add Function
             
 def sub():
     
@@ -79,7 +79,7 @@ def sub():
                 print(sub[i][j] , end="  ")
                 
     else:
-        print("\nSubtraction cannot be performed")
+        print("\nSubtraction cannot be performed")                     #Subtraction Function
             
             
 def multi():
@@ -102,7 +102,7 @@ def multi():
                 print(multi[i][j] , end="  ")
                 
     else:
-        print("\nMultiplication cannot be performed")
+        print("\nMultiplication cannot be performed")                        #Multiplication Function
             
 def transpose1(r1,c1):
     trans=[]
@@ -120,7 +120,7 @@ def transpose1(r1,c1):
     for i in range (r1):
         print("\n")
         for j in range (c1):
-            print(trans[i][j] , end="  ")
+            print(trans[i][j] , end="  ")                                     #Transpose First Matrix
             
 
 def transpose2(r1,c1):
@@ -139,7 +139,7 @@ def transpose2(r1,c1):
     for i in range (r1):
         print("\n")
         for j in range (c1):
-            print(trans[i][j] , end="  ")
+            print(trans[i][j] , end="  ")                                      #Transpose Second Matrix
 
 ch=0
 while(ch!=5):
