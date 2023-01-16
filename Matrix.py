@@ -120,7 +120,7 @@ def transpose1(r1,c1):
     for i in range (r1):
         print("\n")
         for j in range (c1):
-            print(trans[i][j] , end="  ")                                     #Transpose First Matrix
+            print(trans[i][j] , end="  ")                                     #Transpose of First Matrix
             
 
 def transpose2(r1,c1):
@@ -139,7 +139,7 @@ def transpose2(r1,c1):
     for i in range (r1):
         print("\n")
         for j in range (c1):
-            print(trans[i][j] , end="  ")                                      #Transpose Second Matrix
+            print(trans[i][j] , end="  ")                                      #Transpose of Second Matrix
 
 ch=0
 while(ch!=5):
