@@ -4,6 +4,8 @@
  c) To check whether given string is palindrome or not 
  d) To display index of first appearance of the substring
  e) To count the occurrences of each word in a given string'''
+#https://github.com/Deshnashah27
+
 
 
 strng=input("Enter a string: ")                          #string input
