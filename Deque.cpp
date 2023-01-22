@@ -5,7 +5,7 @@ representation mapping a deque into a one- dimensional array.
 Write C++ program to simulate deque with functions to add and
 delete elements from either end of the deque.
 */
-
+//https://github.com/Deshnashah27
 
 
 #include<iostream>
